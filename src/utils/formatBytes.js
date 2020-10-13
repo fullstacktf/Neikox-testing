@@ -10,7 +10,7 @@ const formatMap = [
     { breakpoint: 1, formatFn: formatMb }
 ];
 
-function formatBytes(megaBytes) {
+export default function formatBytes(megaBytes) {
     if (megaBytes === 0) {
         return "";
     }
@@ -25,4 +25,4 @@ function formatBytes(megaBytes) {
     }
 }
 
-module.exports = formatBytes;
+// module.exports = formatBytes;
