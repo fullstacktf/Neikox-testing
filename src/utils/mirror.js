@@ -11,5 +11,3 @@ export default function mirror(list) {
     }
     return arrayMirror;
 }
-
-console.log(mirror([1,]));
